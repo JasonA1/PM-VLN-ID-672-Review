@@ -17,11 +17,10 @@ This repository contains source code and data samples to run the FL<sub>PM</sub>
 - CD into the main directory.
 - Install requirements for the project: pip install -r requirements.txt
 - Untar the tar archive containing the datasets (see below): tar -xzvf datasets_paper_id_672.tar.gz
-- Start training and evaluation:
+- Start training using the command line below.
 
 ``` bash
-# clone the repository
-python main.py --dataset vln_sl_sample --img_feat_dir ./datasets/vln_sl_sample/features/ --pt_feat_dir ./datasets/vln_sl_sample/pt_features/ --hidden_dim 256 --model vbforvln --vln_batch_size 2 --fl_batch_size 5 --max_num_epochs 1 --exp_name train_tini_new --store_ckpt_every_epoch True --fl_dir datasets/mc_10_sample --fl_dataset mc_10 --fl_feat_dir datasets/mc_10_sample/features --fl_pt_feat_dir datasets/mc_10_sample/pt_features --max_instr_len 180 --max_window_len 80 --max_t_v_len 140
+python main.py --dataset vln_sl_sample --img_feat_dir ./datasets/vln_sl_sample/features/ --pt_feat_dir ./datasets/vln_sl_sample/pt_features/ --hidden_dim 256 --model vbforvln --vln_batch_size 2 --fl_batch_size 5 --max_num_epochs 1 --exp_name train_tini_new --store_ckpt_every_epoch True --fl_dir datasets/mc_10_sample --fl_dataset mc_10 --fl_feat_dir datasets/mc_10_sample/features --fl_pt_feat_dir datasets/mc_10_sample/pt_features --max_instr_len 180 --max_window_len 80 --max_t_v_len 140 > flpm_out.txt
 ```
 
 ### Data
@@ -37,5 +36,4 @@ This file contains directories with two types of dataset:
   - vln_sl_sample - sample VLN dataset containing nine modified samples of routes from StreetLearn. 
 
 #### Touchdown
-In order to access and download Touchdown and StreetLearn, please refer to this link:
-https://sites.google.com/view/streetlearn/touchdown
+In order to access and download Touchdown and StreetLearn, please refer to this [link](https://sites.google.com/view/streetlearn/touchdown).
