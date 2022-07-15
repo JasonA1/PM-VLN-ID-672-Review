@@ -20,7 +20,6 @@ This repository contains source code and data samples to run the FL<sub>PM</sub>
 Data for review are submitted in the following tar archive uploaded with supplementary material: datasets_paper_id_672.tar.gz
 
 This file contains directories with two types of dataset: 
-
 * Samples from datasets introduced in this research for manual review:
   - mc_10_subset - JSON file and 5 sample images of entities from the MC-10 dataset.
   - tr_ny_pit_subset - JSON and 5 sample images of path traces from the TR-NY-PIT-central dataset.
@@ -29,3 +28,5 @@ This file contains directories with two types of dataset:
   - vln_sl_sample - sample VLN dataset containing nine modified samples of routes from StreetLearn. 
 
 #### Touchdown
+In order to access and download the Touchdown dataset, please refer to this link:
+https://sites.google.com/view/streetlearn/touchdown
