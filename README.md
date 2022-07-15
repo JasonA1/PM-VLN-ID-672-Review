@@ -16,7 +16,7 @@ This repository contains source code and data samples to run the FL<sub>PM</sub>
 
 - CD into the main directory.
 - Install requirements for the project: pip install -r requirements.txt
-- Unzip the archive containing the datasets (see below for details on contents): unzip datasets_paper_id_672.zip
+- Unzip the archive containing the datasets (see below for details on contents): unzip SupMat_and_datasets_paper_id_672
 - Start training using the command line below.
 
 ``` bash
@@ -25,7 +25,7 @@ python main.py --dataset vln_sl_sample --img_feat_dir ./datasets/vln_sl_sample/f
 
 ### Data
 #### Data Samples
-Data for review are submitted in the following archive uploaded with supplementary material: datasets_paper_id_672.zip
+Data for review are submitted in the following archive uploaded with supplementary material: SupMat_and_datasets_paper_id_672
 
 This file contains directories with two types of dataset: 
 * Samples from datasets introduced in this research for manual review:
