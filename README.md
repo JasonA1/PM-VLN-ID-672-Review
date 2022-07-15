@@ -16,7 +16,7 @@ This repository contains source code and data samples to run the FL<sub>PM</sub>
 
 - CD into the main directory.
 - Install requirements for the project: pip install -r requirements.txt
-- Unzip the archive containing the datasets (see below): unzip datasets_paper_id_672.zip
+- Unzip the archive containing the datasets (see below for details on contents): unzip datasets_paper_id_672.zip
 - Start training using the command line below.
 
 ``` bash
