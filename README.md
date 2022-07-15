@@ -14,12 +14,17 @@ requirements.txt
 ### Steps to Run the Framework
 This repository contains source code and data samples to run the FL<sub>PM</sub> framework with the integrated PM-VLN. We tested and ran the code presented here on a single Tesla GPU with 16GB of RAM.
 
-### Data 
-#### Samples
-We present in this repository samples from the 3 following datasets:
- - VLN-Touchdown-sample - samples adapted from the Touchdown and StreetLearn datasets.
- - MC-10 - JSON file and 5 sample images of entities.
- - TR-NY-PIT-central - JSON and 5 sample images of path traces.
 
-#### Samples
-Touchdown
+### Data
+Data for review is submitted in the following tar file uploaded with supplementary material:
+datasets_paper_id_672.tar.gz
+
+This file contains directories with two types of dataset. 
+
+Samples from datasets introduced in this research for manual review:
+ - mc_10_subset - JSON file and 5 sample images of entities from the MC-10 dataset.
+ - tr_ny_pit_subset - JSON and 5 sample images of path traces from the TR-NY-PIT-central dataset.
+
+Sample data to run the framework:
+ - mc_10_sample - data from MC-10 to train the PM-VLN module.
+ - vln_sl_sample - sample VLN dataset containing nine modified samples of routes from StreetLearn. 
