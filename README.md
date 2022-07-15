@@ -25,7 +25,7 @@ python main.py --dataset vln_sl_sample --img_feat_dir ./datasets/vln_sl_sample/f
 
 ### Data
 #### Data Samples
-Data for review are submitted in the following tar archive uploaded with supplementary material: datasets_paper_id_672.tar.gz
+Data for review are submitted in the following archive uploaded with supplementary material: datasets_paper_id_672.zip
 
 This file contains directories with two types of dataset: 
 * Samples from datasets introduced in this research for manual review:
